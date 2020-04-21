@@ -10,8 +10,8 @@
 #### Create with Terraform
 * 1 `ec2` instance
 * 1 `security_group`
-    * ingress port 22 for ssh
-    * ingress port 51820 for Wireguard UDP
+    * ingress port `22` for ssh
+    * ingress port `51820` for Wireguard UDP
     * egress let it all out
 
 ### Terraform

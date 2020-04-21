@@ -18,7 +18,7 @@
 #### Options
 * `key_name` the ec2 key pair to associate to the instance, defaults to `"aws-wireguard"`
 * `wireguard_ips` port 51820 ip whitelist, deafaults to `["0.0.0.0/0"]`
-* `ssh_ips` port 51820 ip whitelist, **REQUIRED**`
+* `ssh_ips` port 22 ip whitelist, **REQUIRED**`
 
 usage
 ```

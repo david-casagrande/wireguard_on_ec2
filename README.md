@@ -38,6 +38,8 @@ terraform apply -var='ssh_ips=["73.173.72.29/32"]' -var='wireguard_ips=["73.173.
 ### Install
 `install.sh` runs on `ec2` instance create
 
+### Setup
+Follow instructions via https://tau.gr/posts/2019-03-02-set-up-wireguard-vpn-ubuntu-mac/#create-server-config or configure Wireguard as you see fit
 
 ### Wireguard command quick reference
 * `wg-quick up wg0`
@@ -48,6 +50,6 @@ terraform apply -var='ssh_ips=["73.173.72.29/32"]' -var='wireguard_ips=["73.173.
 * `systemctl enable wg-quick@wg0` # start Wireguard automatically
 
 ## References
-https://tau.gr/posts/2019-03-02-set-up-wireguard-vpn-ubuntu-mac/
-https://github.com/isystem-io/wireguard-aws
-https://habr.com/en/post/449234/
+* https://tau.gr/posts/2019-03-02-set-up-wireguard-vpn-ubuntu-mac/
+* https://github.com/isystem-io/wireguard-aws
+* https://habr.com/en/post/449234/
